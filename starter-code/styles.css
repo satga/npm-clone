@@ -1,0 +1,279 @@
+/* styles.css */
+
+/*  ------- General styles --------- */
+body {
+  font-family: Helvetica, Arial,  sans-serif;
+  font-size: 16px;
+  line-height: 3.5em;
+  font-weight: 300;
+  margin: 0;
+  color:white;
+}
+
+h1 {
+  font-size: 3em;
+  line-height: 1.5;
+  text-emphasis: none;
+}
+
+h2 {
+  font-size: 2em;
+  font-style: normal;
+  text-emphasis: none;
+}
+
+h3 {
+  font-size: 1.5em;
+  text-align: center;
+  font-style: normal;
+  text-emphasis: none;
+}
+
+.clearfix { 
+  clear: both; /* clear floats */
+  }
+
+/* -------  Navigation Bar  ------- */
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding: 15px 10px;
+  height: 60px;
+  font-size: 1.2em;
+}
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 10;
+  margin: 0 20px 0 0;
+}
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.top-left {
+  display: inline-block;
+  padding: 10;
+  margin: 0 20px 0 0;
+}
+
+/* -------  Header  ------- */
+
+.left-content {
+  display: block;
+  width: 28%;
+  text-align: left;
+  float: left;
+  padding: 45px 168px;
+}
+
+.text {
+  line-height: 1.6em;
+}
+
+header {
+  background: rgb(32, 101, 136);
+}
+
+
+#top-header a {
+  color:white;
+  text-decoration: none;
+  /* display: block;
+  text-align: center;
+  width: 150px;
+  margin: 0;
+  border: 0;
+  padding: 0 14px;
+  height: 60px; */
+}
+
+
+#site-search{
+  width: 65vw;
+  height: 6vh;
+  background: rgb(31, 82, 111);
+  border:none;
+  box-shadow: 1px 1px 5px 0 #eee;
+}
+
+button {
+  height: 6vh;
+  width: 6.5vh;
+  background: rgb(31, 82, 111);
+  border:none;
+  box-shadow: 1px 1px 5px 0 #eee;
+}
+
+.search-icon {
+  width: 14px;
+}
+
+.search-control img {
+  height: 14px;
+}
+/* bear logo */
+.image-div { 
+  height: 7vh;
+  padding-top: 1.5vh;
+}
+
+.logo-div {
+  height: 7vh;
+  padding-top: 1.5vh;
+}
+
+.header-elm{
+  display: block;
+  margin: 0 10px; 
+  float: left;
+}
+
+
+.main-header{
+  background-image: url('images/city-scape.svg');
+  background-position: 0 0;
+  background-repeat:no-repeat;
+  background-size:cover;
+  block-size: 650px;
+  /* padding: 50px; */
+  position: relative;
+  margin: 0 auto;
+  /* border: 5px 0 0 white; */
+}
+
+.main-header img {
+  display: block;
+  float: right;
+  width: 600px;
+  height: 425px;
+  margin: 0;
+  padding: 0;
+}
+
+.main-header a {
+  color:white;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  background-color: rgb(240, 146, 51);
+  width: 120px;
+  margin: 0;
+  border-radius: 25px;
+  padding: 0 14px;
+  height: 50px;
+}
+
+/*  Section  Collaboration .orgs */
+
+#orgs {
+  background: rgb(39, 53, 71);
+  margin: 0 auto;
+  border: 5px 0px solid white;
+  padding: 50px 10px 10px;
+  
+}
+#orgs img {
+  display: block;
+  float: left;
+  width: 300px;
+  margin: 0;
+  padding: 0;
+}
+
+#orgs a {
+  color:white;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  background-color:rgb(203, 56, 55);
+  width: 120px;
+  margin: 0;
+  border-radius: 25px;
+  padding: 0 14px;
+  height: 50px;
+}
+
+.right-content {
+  float: right;
+  text-align: left;
+  display: block;
+  width: 50%;
+}
+
+#orgs ul {
+  line-height: 1.5em;
+}
+/* section About .npm */
+
+#npm {
+  background-image: url('images/forklift.svg');
+  background-position: 0 0;
+  background-repeat:no-repeat;
+  background-size:cover;
+  block-size: 450px;
+  padding: 50px;
+  position: relative;
+  margin: 0 auto;
+  height: 61vh;
+}
+
+#npm a {
+  color:white;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  background-color:rgb(49, 68, 88);
+  width: 120px;
+  margin: 0;
+  border-radius: 25px;
+  padding: 0 14px;
+  height: 50px;
+}
+
+
+/* Section: Build - What can you do  */
+
+#build {
+  block-size: 650px;
+}
+
+#build .heading {
+  color: rgb(83, 88, 98);
+  text-align: center;
+  display: block;
+  padding: 0;
+}
+
+.box3 { 
+  float: left; 
+  width: 30%; /* 30% | 30% | 30% */
+  font-size: 1.2em;
+  line-height: 1em;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0.5%  0.5%;
+  padding: 20px;
+  background: white;
+  padding: 5%;
+ } 
+
+.box3 .text {
+  font-size: 0.7em;
+  color: rgb(135, 145, 156);
+  line-height: 1em;
+  display: inline;
+ }
+
+ .box3 a {
+  font-size: 0.7em;
+  line-height: 1em;
+  text-decoration: none;
+  color:rgb(208, 74, 73);
+ }
